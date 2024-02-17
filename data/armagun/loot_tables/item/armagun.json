@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "crossbow"
+          }
+        ],
+        "functions": [
+          {
+            "function": "set_nbt",
+            "tag": "{CustomModelData:5101,armagun:{id:\"armagun\"},Charged:1b,ChargedProjectiles:[{id:\"air\",Count:1b,tag:{display:{Name:'{\"translate\":\"entity.minecraft.armadillo\",\"italic\":false}'}}}],display:{Name:'{\"translate\":\"item.armagun.armagun\",\"italic\":false}'}}"
+          }
+        ]
+      }
+    ]
+  }
+  

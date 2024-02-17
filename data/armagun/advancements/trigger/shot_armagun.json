@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "shot_crossbow": {
+      "trigger": "shot_crossbow",
+      "conditions": {
+        "item": {
+          "items": [
+            "crossbow"
+          ],
+          "nbt": "{armagun:{id:\"armagun\"},Charged:1b,ChargedProjectiles:[{id:\"air\",Count:1b}]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "armagun:item/armagun/use"
+  },
+  "sends_telemetry_event": true
+}
