@@ -2,7 +2,8 @@
 Armafun with armadillos
 
 Just get fun with this datapack!\
-For this datapack you also need to activate 1.21 update experimental feature
+Minecraft version: **23w07a** and higher\
+For this datapack you also need to activate **1.21 update** experimental feature
 
 
 
