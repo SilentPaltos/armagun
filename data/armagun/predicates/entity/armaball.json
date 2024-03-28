@@ -1,0 +1,9 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "item_display",
+      "nbt": "{Tags:[\"armagun.entity.armaball\"]}"
+    }
+  }
+  
