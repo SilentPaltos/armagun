@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "pack_format": 37,
+    "supported_formats": [31, 37],
+    "description": [
+      {
+        "translate": "pack.armagun.description",
+        "fallback": "For armafun. Use file as Resource and Data pack",
+        "color": "gold"
+      }
+    ]
+  },
+  "features": {
+    "enabled": [
+      "update_1_21"
+    ]
+  }
+}
+  
