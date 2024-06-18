@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "armagun":{
+                "id":"armagun"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "armagun:item/armagun/use"
+  }
+}
+
