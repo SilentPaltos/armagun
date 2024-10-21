@@ -1,14 +1,12 @@
 {
   "pack": {
-    "pack_format": 48,
-    "supported_formats": [34, 48],
+    "pack_format": 42,
+    "supported_formats": [ 42, 57 ],
     "description": [
       {
         "translate": "pack.armagun.description",
-        "fallback": "Only for armafun",
-        "color": "gold"
+        "fallback": "For armafun"
       }
     ]
   }
 }
-  
