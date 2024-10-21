@@ -1,0 +1,9 @@
+{
+    "asset_id": "armagun:eyemadillo",
+    "title": {
+        "color": "yellow",
+        "translate": "painting.armagun.eyemadillo.title"
+    },
+    "height": 3,
+    "width": 4
+}

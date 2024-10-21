@@ -1,0 +1,21 @@
+{
+    "pack.armagun.info": "\n%s %s\n\n%s\n%s\n",
+    "pack.armagun.name": "Armagun",
+    "pack.armagun.description": "For armafun",
+    "pack.armagun.authors": "Authors: %s, %s",
+    "pack.armagun.version": "Version: %s",
+    "pack.armagun.get_links": "Get Links",
+    "pack.armagun.links": "\n[%s] [%s] [%s]\n",
+    "pack.armagun.link_github": "GitHub",
+    "pack.armagun.link_modrinth": "Modrinth",
+    "pack.armagun.link_planetminecraft": "PlanetMinecraft",
+
+    "item.armagun.armagun": "Armagun",
+    "item.armagun.armafly": "Armafly",
+    "item.armagun.armahelm": "Armahelm",
+
+    "painting.armagun.eyemadillo.title": "Eye-madillo",
+
+    "emoji.armagun.armadillo_scute": "1",
+    "emoji.armagun.mobvote_armadillo_scute": "2"
+}

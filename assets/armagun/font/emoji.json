@@ -1,0 +1,18 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:item/armadillo_scute.png",
+			"ascent": 11,
+			"height": 16,
+			"chars": ["1"]
+		},
+		{
+			"type": "bitmap",
+			"file": "armagun:item/mobvote_armadillo_scute.png",
+			"ascent": 11,
+			"height": 16,
+			"chars": ["2"]
+		}
+	]
+}

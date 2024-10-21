@@ -1,0 +1,28 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armadillo_scute",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "armagun:mobvote_armadillo_scute",
+                  "enchantment_glint_override": false,
+                  "minecraft:max_stack_size": 64,
+                  "rarity": "epic",
+                  "minecraft:custom_data": {
+                    "armagun": { "id": "mobvote_armadillo_scute" }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
