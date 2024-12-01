@@ -1,6 +1,0 @@
-{
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "armagun:item/mobvote_armadillo_scute"
-	}
-}
