@@ -1,0 +1,30 @@
+{
+    "pack.armagun.info": "\n%s %s\n\n%s\n%s\n",
+    "pack.armagun.name": "Бронестрел",
+    "pack.armagun.description": "Для броневеселья",
+    "pack.armagun.authors": "Авторы: %s, %s",
+    "pack.armagun.version": "Версия: %s",
+    "pack.armagun.get_links": "Ссылки",
+    "pack.armagun.links": "\n[%s] [%s] [%s]\n",
+    "pack.armagun.link_github": "ГитХаб",
+    "pack.armagun.link_modrinth": "Модринт",
+    "pack.armagun.link_planetminecraft": "Шахтёрская планета",
+
+    "item.armagun.armagun": "Бронестрел",
+    "item.armagun.armafly": "Бронелёт",
+    "item.armagun.armahelm": "Бронешлем",
+    "item.armagun.armavest": "Бронежилет",
+    "item.armagun.armapaw": "Бронелапа",
+    "item.armagun.armadillo_scute_concept": "Концепт щитка броненосца",
+    "item.armagun.old_armadillo_scute": "Щиток старого броненосца",
+    "item.armagun.old_wolf_armor": "Броня старого волка",
+    "item.armagun.spider_eyes": "Паучьи глаза",
+    "item.armagun.ancient_spider_eyes": "Глаза древнего паука",
+
+    "painting.armagun.eyemadillo.title": "Зраконосец",
+    "painting.armagun.loading.title": "Загрузка",
+
+    "emoji.armagun.armadillo_scute": "1",
+    "emoji.armagun.armadillo_scute_concept": "2",
+    "emoji.armagun.old_armadillo_scute": "3"
+}

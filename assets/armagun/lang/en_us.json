@@ -1,0 +1,30 @@
+{
+    "pack.armagun.info": "\n%s %s\n\n%s\n%s\n",
+    "pack.armagun.name": "Armagun",
+    "pack.armagun.description": "For armafun",
+    "pack.armagun.authors": "Authors: %s, %s",
+    "pack.armagun.version": "Version: %s",
+    "pack.armagun.get_links": "Get Links",
+    "pack.armagun.links": "\n[%s] [%s] [%s]\n",
+    "pack.armagun.link_github": "GitHub",
+    "pack.armagun.link_modrinth": "Modrinth",
+    "pack.armagun.link_planetminecraft": "PlanetMinecraft",
+
+    "item.armagun.armagun": "Armagun",
+    "item.armagun.armafly": "Armafly",
+    "item.armagun.armahelm": "Armahelm",
+    "item.armagun.armavest": "Armavest",
+    "item.armagun.armapaw": "Armapaw",
+    "item.armagun.armadillo_scute_concept": "Armadillo Scute Concept",
+    "item.armagun.old_armadillo_scute": "Old Armadillo Scute",
+    "item.armagun.old_wolf_armor": "Old Wolf Armor",
+    "item.armagun.spider_eyes": "Spider Eyes",
+    "item.armagun.ancient_spider_eyes": "Ancient Spider Eyes",
+
+    "painting.armagun.eyemadillo.title": "Eye-madillo",
+    "painting.armagun.loading.title": "Loading",
+
+    "emoji.armagun.armadillo_scute": "1",
+    "emoji.armagun.armadillo_scute_concept": "2",
+    "emoji.armagun.old_armadillo_scute": "3"
+}

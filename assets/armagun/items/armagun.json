@@ -1,0 +1,25 @@
+{
+    "model": {
+      "hand_animation_on_swap": false,
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "gui",
+            "ground",
+            "fixed"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "armagun:item/armagun"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "armagun:item/armagun_in_hand"
+      }
+    }
+  }
+  

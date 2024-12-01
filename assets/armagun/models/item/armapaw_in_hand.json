@@ -1,0 +1,55 @@
+{
+	"credit": "Created by SilentPaltos",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "armagun:item/armapaw_in_hand",
+		"particle": "item/armadillo_scute"
+	},
+	"elements": [
+		{
+			"from": [6, 2, 6],
+			"to": [10, 14, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 2, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 6], "texture": "#0"},
+				"east": {"uv": [2, 0, 4, 6], "texture": "#0"},
+				"south": {"uv": [4, 0, 6, 6], "texture": "#0"},
+				"west": {"uv": [0, 6, 2, 12], "texture": "#0"},
+				"up": {"uv": [8, 2, 6, 0], "texture": "#0"},
+				"down": {"uv": [4, 6, 2, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -2, 6],
+			"scale": [1.13, 1.13, 1.13]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, -180, 0],
+			"translation": [0, -2, 6],
+			"scale": [1.13, 1.13, 1.13]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, 60, 45],
+			"scale": [1.13, 1.13, 1.13]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, -125, -45],
+			"scale": [1.13, 1.13, 1.13]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -1, 0],
+			"scale": [1.13, 1.13, 1.13]
+		},
+		"gui": {
+			"rotation": [35, 173, 32],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"scale": [2.26, 2.26, 2.26]
+		}
+	}
+}

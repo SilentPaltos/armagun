@@ -1,0 +1,24 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "gui",
+            "ground",
+            "fixed"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "armagun:item/armafly"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "armagun:item/armafly_in_hand"
+      }
+    }
+  }
+  
