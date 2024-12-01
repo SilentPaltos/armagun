@@ -1,0 +1,47 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clock",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"item.armagun.old_wolf_armor\"}",
+                  "minecraft:item_model": "armagun:old_wolf_armor",
+                  "minecraft:max_stack_size": 1,
+                  "rarity": "epic",
+                  "equippable": {
+                    "slot": "body",
+                    "allowed_entities": "wolf",
+                    "asset_id": "armagun:old_armadillo_scute",
+                    "equip_sound": "item.armor.equip_wolf",
+                    "swappable": true,
+                    "dispensable": true
+                  },
+                  "attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "armagun:armor.body",
+                        "type": "armor",
+                        "slot": "body",
+                        "amount": 11,
+                        "operation": "add_value"
+                      }
+                    ]
+                  },
+                  "!max_damage": {},
+                  "minecraft:custom_data": {
+                    "armagun": { "id": "old_wolf_armor" }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

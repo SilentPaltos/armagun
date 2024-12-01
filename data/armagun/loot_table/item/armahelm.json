@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"item.armagun.armahelm\"}",
+                "minecraft:item_model": "armagun:armahelm",
+                "equippable": {
+                  "slot": "head",
+                  "allowed_entities": "#armagun:can_wear_armahelm",
+                  "equip_sound": "entity.armadillo.roll",
+                  "camera_overlay": "armagun:misc/armahelm_camera_overlay",
+                  "damage_on_hurt": false,
+                  "dispensable": true,
+                  "swappable": true
+                },
+                "attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "armagun:armor.head",
+                      "type": "armor",
+                      "slot": "head",
+                      "operation": "add_value",
+                      "amount": 6
+                    }
+                  ] 
+                },
+                "minecraft:max_stack_size": 1,
+                "rarity": "epic",
+                "minecraft:custom_data": {
+                  "armagun": { "id": "armahelm" }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

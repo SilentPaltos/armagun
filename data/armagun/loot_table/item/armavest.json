@@ -1,0 +1,46 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clock",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"item.armagun.armavest\"}",
+                  "minecraft:item_model": "armagun:armavest",
+                  "minecraft:max_stack_size": 1,
+                  "rarity": "epic",
+                  "equippable": {
+                    "slot": "chest",
+                    "allowed_entities": "player",
+                    "asset_id": "armagun:armadillo_scute",
+                    "equip_sound": "entity.armadillo.roll",
+                    "swappable": true,
+                    "dispensable": true
+                  },
+                  "attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "armagun:armor.chest",
+                        "type": "armor",
+                        "slot": "chest",
+                        "operation": "add_value",
+                        "amount": 10
+                      }
+                    ] 
+                  },
+                  "minecraft:custom_data": {
+                    "armagun": { "id": "armavest" }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

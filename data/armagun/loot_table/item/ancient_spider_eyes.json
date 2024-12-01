@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clock",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"item.armagun.ancient_spider_eyes\"}",
+                  "minecraft:item_model": "armagun:ancient_spider_eyes",
+                  "minecraft:max_stack_size": 1,
+                  "rarity": "epic",
+                  "equippable": {
+                    "slot": "head",
+                    "allowed_entities": "player",
+                    "asset_id": "armagun:ancient_spider_eyes",
+                    "camera_overlay": "armagun:misc/ancient_spider_eyes_camera_overlay",
+                    "swappable": true,
+                    "dispensable": true
+                  },
+                  "minecraft:custom_data": {
+                    "armagun": { "id": "ancient_spider_eyes" }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

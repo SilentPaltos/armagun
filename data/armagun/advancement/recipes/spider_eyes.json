@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_spider_eye": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:spider_eye"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "armagun:spider_eyes"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_spider_eye"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "armagun:spider_eyes"
+      ]
+    }
+  }
+  

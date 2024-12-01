@@ -1,0 +1,68 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"translate\":\"item.armagun.armapaw\"}",
+                  "minecraft:item_model": "armagun:armapaw",
+                  "minecraft:max_stack_size": 1,
+                  "rarity": "epic",
+                  "attribute_modifiers": {
+                    "modifiers": [
+                        {
+                            "id": "armagun:armor.mainhand",
+                            "type": "minecraft:armor",
+                            "amount": 2,
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                        },
+                        {
+                            "id": "armagun:armor.offhand",
+                            "type": "minecraft:armor",
+                            "amount": 2,
+                            "operation": "add_value",
+                            "slot": "offhand"
+                        },
+                        {
+                            "id": "armagun:attack_damage",
+                            "type": "minecraft:attack_damage",
+                            "amount": 4,
+                            "operation": "add_value",
+                            "slot": "hand"
+                        },
+                        {
+                            "id": "armagun:block_break_speed",
+                            "type": "minecraft:block_break_speed",
+                            "amount": 0.5,
+                            "operation": "add_value",
+                            "slot": "hand"
+                        },
+                        {
+                            "id": "armagun:submerged_mining_speed",
+                            "type": "minecraft:submerged_mining_speed",
+                            "amount": 0.3,
+                            "operation": "add_value",
+                            "slot": "hand"
+                        }
+                    ],
+                    "show_in_tooltip": true
+                  },
+                  "!max_damage": {},
+                  "minecraft:custom_data": {
+                    "armagun": { "id": "armapaw" }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

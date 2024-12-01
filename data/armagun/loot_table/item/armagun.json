@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:charged_projectiles": [
+                  {
+                    "id": "minecraft:arrow",
+                    "components": {
+                      "minecraft:custom_data": {"armagun":"armagun_projectile_filler"}
+                    }
+                  }
+                ],
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:item_name": "{\"translate\":\"item.armagun.armagun\"}",
+                "minecraft:item_model": "armagun:armagun",
+                "minecraft:max_stack_size": 1,
+                "rarity": "epic",
+                "minecraft:custom_data": {
+                  "armagun": { "id": "armagun" }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "ese"
+    ],
+    "key": {
+      "e": "minecraft:spider_eye",
+      "s": "minecraft:string"
+    },
+    "result": {
+      "id": "minecraft:acacia_log",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"item.armagun.spider_eyes\"}",
+        "minecraft:item_model": "armagun:spider_eyes",
+        "minecraft:max_stack_size": 1,
+        "rarity": "common",
+        "equippable": {
+          "slot": "head",
+          "allowed_entities": "player",
+          "asset_id": "armagun:spider_eyes",
+          "camera_overlay": "armagun:misc/spider_eyes_camera_overlay",
+          "swappable": true,
+          "dispensable": true
+        },
+        "minecraft:custom_data": {
+          "armagun": { "id": "spider_eyes" }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,9 @@
+{
+    "asset_id": "armagun:loading",
+    "title": {
+        "color": "yellow",
+        "translate": "painting.armagun.loading.title"
+    },
+    "height": 4,
+    "width": 4  
+}
